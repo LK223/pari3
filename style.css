@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.link-text{
+    color: cadetblue;
+}
+body {
+  background-color: #000;
+}
+.gog{
+    font-size: 18px;
+}
+.container {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container span{
+  text-transform: uppercase;
+  display: block;
+}
+
+.text1{
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+  background: #000;
+  position: relative;
+  animation: text 3s 1;
+  
+}
+.ggg2{
+    display: flex;
+    flex-display:row;
+    width: 600px;
+    height: 600px;
+}
+.link-header2{
+    border: 2px solid rgb(68, 68, 68);
+    padding: 15px 20px 15px -280px;
+    width: 200px;
+    height: 30px;
+    margin: 25px -20px 0px 75px;
+    border-radius: 15px;
+    background-color: rgb(68, 68, 68);
+    animation: link 3s 1;
+}
+.text2{
+  color: cadetblue;
+  font-size: 22px;
+  animation: text2 3s 1;
+}
+.text3{
+    color: cadetblue;
+    font-size: 20px;
+    transform:color black 3s ;
+    animation: text3 3s 1;
+}
+@keyframes text{
+  0%{
+    color: #000;
+    letter-spacing: 1500px;
+    font-size: 1050px;
+    
+  }
+
+  30%{
+    color: #000;
+  }
+  50%{
+    letter-spacing: 25px;
+    
+  }
+  85%{
+    letter-spacing: 8px;
+  }
+}
+@keyframes text3{
+    0%{
+        color: white;
+        opacity: 0;
+        font-size: 5px;
+    }
+    85%{
+        opacity: 1;
+    }
+
+}
+@keyframes text2{
+    0%{
+        color: white;
+        opacity: 0;
+        font-size: 5px;
+    }
+    85%{
+        opacity: 1;
+    }
+
+
+}
+@keyframes link{
+    0%{
+        color: white;
+        opacity: 0;
+        font-size: 5px;
+    }
+    85%{
+        opacity: 1;
+    }
+
+
+}
