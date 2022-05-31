@@ -55,37 +55,37 @@ body {
 .text2{
   color: cadetblue;
   font-size: 22px;
-  animation: text2 3s 1;
+  animation: text2 4s 1;
 }
 .text3{
     color: cadetblue;
     font-size: 20px;
     transform:color black 3s ;
-    animation: text3 3.5s 1;
+    animation: text3 4.5s 1;
 }
 .text4{
     color: cadetblue;
     font-size: 20px;
     transform:color black 3s ;
-    animation: text4 4s 1;
+    animation: text4 5s 1;
 }
 .text5{
     color: cadetblue;
     font-size: 20px;
     transform:color black 3s ;
-    animation: text5 4.5s 1;
+    animation: text5 5.5s 1;
 }
 .text6{
     color: cadetblue;
     font-size: 20px;
     transform:color black 3s ;
-    animation: text6 5s 1;
+    animation: text6 6s 1;
 }
 .text7{
     color: cadetblue;
     font-size: 20px;
     transform:color black 3s ;
-    animation: text7 5.5s 1;
+    animation: text7 6.5s 1;
 }
 @keyframes text{
   0%{
