@@ -51,6 +51,8 @@ body {
     border-radius: 15px;
     background-color: rgb(68, 68, 68);
     animation: link 3s 1;
+    text-decoration: none;
+    color: rgb(151, 2, 189);
 }
 .text2{
   color: cadetblue;
